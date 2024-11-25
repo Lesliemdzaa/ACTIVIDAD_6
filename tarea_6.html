@@ -3,45 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Formulario de Contacto</title>
     <style>
-     
+        /* Estilo del contenedor principal */
         .contenedor-formulario {
-            max-width: 500px;
-            margin: 50px auto;
-            background-color: #ffffff;
+            max-width: 400px;
+            margin: auto;
+            background-color: lightblue;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            padding: 20px;
+            box-shadow: 10px 14px 18px rgba(0, 0, 0, 0.2);
+            padding: 40px;
             font-family: Arial, sans-serif;
         }
 
-
+        /* Estilo general de los elementos del formulario */
         label {
             font-weight: bold;
             display: block;
-            margin-bottom: 5px;
+            margin-bottom: 15px;
         }
 
         input, select, textarea, button {
             width: 100%;
             padding: 10px;
             margin-bottom: 15px;
-            border: 1px solid #cccccc;
+            border: 1px solid gray;
             border-radius: 5px;
             font-size: 14px;
         }
 
         input:focus, select:focus, textarea:focus {
             outline: none;
-            border-color: #007bff;
+            border-color: blue;
         }
 
         textarea {
             resize: vertical;
-            min-height: 80px;
+            height: 60px;
         }
 
+        /* Estilo del botón de envío */
         button {
             background-color: #007bff;
             color: white;
@@ -53,7 +54,7 @@
         }
 
         button:hover {
-            background-color: #0056b3;
+            background-color: red;
         }
 
         /* Estilo del título y texto */
@@ -73,7 +74,7 @@
 <body>
     <div class="contenedor-formulario">
         <form action="#" method="post">
-            <h1>Formulario de Contacto</h1>
+            <h1>Formulario</h1>
             <p>Por favor, completa el siguiente formulario.</p>
             
             <label for="nombre">Nombre</label>
@@ -103,5 +104,6 @@
     </div>
 </body>
 </html>
+
 
            
